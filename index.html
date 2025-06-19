@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Կառատեի Դպրոց</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Karatedo Doshinkan Armenia</h1>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <!-- <h2>Բարի գալուստ մեր դպրոց</h2>
+      <p>Սովորիր կառատե սենսեյի ղեկավարությամբ և դարձրու քո մարմինը ու միտքը ուժեղ։</p> -->
+    </div>
+  </section>
+
+
+  <section class="products-section">
+    <h2>Մեր սաները</h2>
+
+    <div class="product-grid" id="productGrid">
+
+    </div>
+
+    <button id="loadMore">Տեսնել ավելին ⬇</button>
+  </section>
+
+
+  <section class="video-section">
+    <div class="container">
+      <h2>Մեր Վիդեոները</h2>
+
+      <div class="video-grid">
+        <!-- Առաջին վիդեո՝ քո տված լինկով -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/O2La5VPn7Mo" allowfullscreen></iframe>
+        </div>
+        <!-- Դատարկ վիդեոներ՝ կարող ես փոխել -->
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/c_KLrG_dc8M" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/fQpi_fx2vx4" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/lBcDRxfcflo" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <!-- Թաքնված վիդեոներ -->
+      <div class="video-grid hidden" id="more-videos">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/lBcDRxfcflo" allowfullscreen></iframe>
+        </div>
+
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/lBcDRxfcflo" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <div class="video-btn">
+        <button id="loadMore">Տեսնել ավելին ⬇</button>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="sensei">
+    <div class="container">
+      <h2>Սենսեի Մասին</h2>
+      <div class="sensei-content">
+        <img src="./images/sense.jpg" alt="Sensei" />
+        <p>Սենսեն մեր դպրոցի հիմնադիրն է՝ 5-րդ դանի վարպետ։ Նրա դասերը համադրում են կարգապահություն, հոգևոր ուժ և
+          տեխնիկայի կատարելություն։</p>
+      </div>
+    </div>
+  </section>
+  <section class="register">
+    <div class="container">
+      <h2>Գրանցվիր Հիմա</h2>
+      <form>
+        <input type="text" placeholder="Անուն Ազգանուն" />
+        <input type="email" placeholder="Էլ. հասցե" />
+        <button type="submit">Գրանցվել</button>
+      </form>
+    </div>
+  </section>
+  <section class="location">
+    <div class="container">
+      <h2>Մեր Հասցեն</h2>
+      <iframe src="https://maps.google.com/maps?q=Yerevan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Karatedo Doshinkan Armenia։ Բոլոր իրավունքները պաշտպանված են։</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
